@@ -4,8 +4,8 @@
 colors = ['red', 'blue', 'yellow']
 
 def is_long(colors):
-if len(colors) > 2:
-return 'Yes'
+    if len(colors) > 2:
+      return 'Yes'
 
 print(is_long(colors))
 ```
