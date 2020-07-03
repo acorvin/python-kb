@@ -97,5 +97,5 @@ print(fruits[::2]) # ['apples', 'bananas']
 Skip backward by 2 in a list.
 
 ```
-print(fruits[::-2]) # ['muffins', 'oranges']
+print(fruits[::-2]) # ['peaches', 'oranges']
 ```
