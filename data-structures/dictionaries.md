@@ -5,7 +5,7 @@ Creating a Dictionary
 
 A dictionary can be created using curly braces {} or by using the built-in dict() function. Each key-value pair is separated by a colon : and multiple pairs are separated by commas.
 
-```
+```python
 # Using curly braces
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 

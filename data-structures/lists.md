@@ -6,7 +6,7 @@ Lists are one of the built-in data structures in Python 3. They are used to stor
 
 To create a list in Python, simply enclose a comma-separated sequence of values in square brackets. For example:
 
-```
+```python
 my_list = [1, 2, 3, 4, 5]
 ```
 
