@@ -59,8 +59,8 @@ Python 3 is widely used for data science, and there are many libraries available
 
 Python 3 is also widely used for machine learning, and there are many libraries and frameworks available for this purpose. Some of the most popular machine learning libraries and frameworks include:
 
-    [scikit-learn](https://scikit-learn.org/stable/): A library for machine learning.
-    [TensorFlow](https://www.tensorflow.org/): An open source machine learning framework developed by Google.
-    [PyTorch](https://pytorch.org/): A machine learning library developed by Facebook.
-    [Keras](https://keras.io/): A high-level neural networks API that runs on top of TensorFlow, Theano, or CNTK.
-    [Theano](http://deeplearning.net/software/theano/): A library for fast numerical computation that can be run on both CPUs and GPUs.
+    [scikit-learn]:https://scikit-learn.org/stable/ A library for machine learning.
+    [TensorFlow]:https://www.tensorflow.org/) An open source machine learning framework developed by Google.
+    [PyTorch]:https://pytorch.org/ A machine learning library developed by Facebook.
+    [Keras]:https://keras.io/ A high-level neural networks API that runs on top of TensorFlow, Theano, or CNTK.
+    [Theano]:http://deeplearning.net/software/theano/ A library for fast numerical computation that can be run on both CPUs and GPUs.
