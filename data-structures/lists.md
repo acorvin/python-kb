@@ -14,7 +14,7 @@ This creates a list called my_list with five elements: 1, 2, 3, 4, and 5.
 
 You can also create an empty list and add elements to it later:
 
-```
+```python
 my_list = []
 my_list.append(1)
 my_list.append(2)
@@ -27,7 +27,7 @@ This creates an empty list called my_list and then adds three elements to it: 1,
 
 To access an element in a list, use square brackets and the element's index. Python lists are zero-indexed, meaning the first element has an index of 0. For example:
 
-```
+```python
 my_list = [1, 2, 3, 4, 5]
 print(my_list[0]) # Output: 1
 print(my_list[2]) # Output: 3
@@ -37,7 +37,7 @@ This code accesses the first and third elements of my_list and prints their valu
 
 You can also access elements from the end of the list by using negative indices. For example:
 
-```
+```python
 my_list = [1, 2, 3, 4, 5]
 print(my_list[-1]) # Output: 5
 print(my_list[-3]) # Output: 3
@@ -51,7 +51,7 @@ You can access a subset of a list by using slicing. Slicing allows you to extrac
 
 For example, to extract the first three elements of my_list, you could use the following code:
 
-```
+```python
 my_list = [1, 2, 3, 4, 5]
 print(my_list[0:3]) # Output: [1, 2, 3]
 ```
@@ -60,7 +60,7 @@ This code slices my_list from the first element (index 0) to the fourth element 
 
 You can also use negative indices in slicing:
 
-```
+```python
 my_list = [1, 2, 3, 4, 5]
 print(my_list[-3:-1]) # Output: [3, 4]
 ```
@@ -69,7 +69,7 @@ This code slices my_list from the third-to-last element to the second-to-last el
 
 You can also use a step value to skip elements:
 
-```
+```python
 my_list = [1, 2, 3, 4, 5]
 print(my_list[::2]) # Output: [1, 3, 5]
 ```
@@ -80,7 +80,7 @@ This code slices my_list with a step of 2, meaning it includes every second elem
 
 Lists are mutable, meaning you can change their contents after they are created. You can change an element in a list by accessing it with the square bracket notation and assigning a new value to it:
 
-```
+```python
 my_list = [1, 2, 3, 4, 5]
 my_list[2] = 7
 print(my_list) # Output: [1, 2, 7, 4, 5]
@@ -98,7 +98,7 @@ You can also add or remove elements from a list using a variety of built-in meth
 
 Here are some examples:
 
-```
+```python
 my_list = [1, 2, 3, 4, 5]
 my_list.append(6)
 print(my_list) # Output: [1, 2, 3, 4, 5, 6]

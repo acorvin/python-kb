@@ -17,7 +17,7 @@ my_dict = dict(apple=2.5, banana=1.5, orange=3.0)
 
 Values in a dictionary can be accessed by their corresponding keys. If the key is not present in the dictionary, a KeyError is raised.
 
-```
+```python
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 
 # Accessing a value
@@ -32,7 +32,7 @@ print(my_dict['mango'])  # Raises: KeyError: 'mango'
 
 You can add a new key-value pair to a dictionary or update an existing value using the assignment operator =.
 
-```
+```python
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 
 # Adding a new key-value pair
@@ -49,7 +49,7 @@ print(my_dict)  # Output: {'apple': 3.0, 'banana': 1.5, 'orange': 3.0, 'mango': 
 
 You can remove an element from a dictionary using the del keyword or the pop() method. The pop() method returns the value of the removed element.
 
-```
+```python
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 
 # Removing a key-value pair using del
@@ -67,7 +67,7 @@ print(my_dict)  # Output: {'apple': 2.5}
 
 You can iterate over a dictionary using a for loop. By default, the loop iterates over the keys of the dictionary. To iterate over both keys and values, use the items() method.
 
-```
+```python
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 
 # Iterating over keys
@@ -97,7 +97,7 @@ keys()
 
 The keys() method returns a view object that contains the keys of the dictionary.
 
-```
+```python
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 
 # Retrieving keys
@@ -109,7 +109,7 @@ values()
 
 The values() method returns a view object that contains the values of the dictionary.
 
-```
+```python
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 
 # Retrieving values
@@ -121,7 +121,7 @@ items()
 
 The items() method returns a view object that contains the key-value pairs of the dictionary as tuples.
 
-```
+```python
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 
 # Retrieving items
@@ -134,7 +134,7 @@ get()
 
 The get() method returns the value of the specified key. If the key is not found, it returns the specified default value or None if no default value is provided.
 
-```
+```python
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 
 # Retrieving a value using get
@@ -155,7 +155,7 @@ clear()
 
 The clear() method removes all the key-value pairs from the dictionary.
 
-```
+```python
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 
 # Clearing the dictionary
@@ -168,7 +168,7 @@ copy()
 
 The copy() method returns a shallow copy of the dictionary.
 
-```
+```python
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 
 # Creating a copy of the dictionary
@@ -180,7 +180,7 @@ update()
 
 The update() method updates the dictionary with the key-value pairs from another dictionary or iterable.
 
-```
+```python
 my_dict = {'apple': 2.5, 'banana': 1.5, 'orange': 3.0}
 
 # Updating the dictionary with another dictionary
@@ -193,7 +193,7 @@ print(my_dict)  # Output: {'apple': 2.5, 'banana': 1.5, 'orange': 3.0, 'mango': 
 
 Dictionary comprehension is a concise way to create dictionaries using an iterable. It is similar to list comprehension but instead of creating a list, it creates a dictionary.
 
-```
+```python
 # Creating a dictionary using dictionary comprehension
 fruits = ['apple', 'banana', 'orange']
 prices = [2.5, 1.5, 3.0]
@@ -206,7 +206,7 @@ Nested Dictionaries
 
 Dictionaries can also contain other dictionaries as values, creating a nested dictionary.
 
-```
+```python
 # Creating a nested dictionary
 person = {'name': 'John', 'age': 25, 'address': {'street': '123 Main St', 'city': 'New York', 'zip': '10001'}}
 print(person)  # Output: {'name': 'John', 'age': 25, 'address': {'street': '123 Main St', 'city': 'New York', 'zip': '10001'}}
