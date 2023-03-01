@@ -12,7 +12,6 @@ The knowledge base includes the following sections:
     Web Development
     Data Science
     Machine Learning
-    Contributing
 
 ## Getting Started
 
@@ -65,7 +64,3 @@ Python 3 is also widely used for machine learning, and there are many libraries 
     [PyTorch](https://pytorch.org/): A machine learning library developed by Facebook.
     [Keras](https://keras.io/): A high-level neural networks API that runs on top of TensorFlow, Theano, or CNTK.
     [Theano](http://deeplearning.net/software/theano/): A library for fast numerical computation that can be run on both CPUs and GPUs.
-
-## Contributing
-
-If you would like to contribute to this knowledge base, please feel free to submit a pull request with any changes or additions you would like to make. Please ensure that any contributions are relevant to Python 3 and provide useful information or resources for programmers using or learning Python 3.
